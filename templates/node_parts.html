@@ -1,11 +1,16 @@
 {% extends "main_layout.html" %}
+
 {% block content %}
-<h3>Hello</h3>
-<div id="div1">The text above has been created dynamically.</div>
+
 {% for i in arr %}
-    <script>
-        var i = {{ i | tojson }};
-        addElement(i);
-    </script>
+<script>
+    var i = {{ i | tojson }};
+    addElement(i);
+</script>
 {% endfor %}
+
+<script>
+    addElement("undifined");
+</script>
+
 {% endblock %}

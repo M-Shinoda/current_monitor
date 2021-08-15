@@ -7,12 +7,14 @@
 
         <title>{{ title }}</title>
         <script src={{ url_for("static", filename="script.js") }}></script>
-        <script src={{ url_for("static", filename="global.css") }}></script>
+        <!-- <script src={{ url_for("static", filename="global.css") }}></script> -->
+        <link rel="stylesheet" href="./static/global.css"></link>
     </head>
 
     <body>
         {% include "navbar.html" %}
-        <div id="device_corrector">
+
+        <div id="device_corrector" class="row row-cols-2 row-cols-md-2">
             {% block content %}{% endblock %}
         </div>
 

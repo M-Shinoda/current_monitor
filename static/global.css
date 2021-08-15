@@ -1,0 +1,13 @@
+#device_corrector{
+    margin:10px;
+}
+
+.end_device {
+    /* width: 18rem; */
+    margin: 1rem auto 0rem;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 100%;
+}
