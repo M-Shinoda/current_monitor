@@ -1,4 +1,4 @@
-function addElement(devideId) {
+function addElement(deviceId) {
   var col = document.createElement("div");
   col.className += "col";
 
@@ -6,7 +6,7 @@ function addElement(devideId) {
   newDeviceCard.className += "card end_device";
 
   var cardImage = document.createElement("iframe");
-  cardImage.src = "https://thingspeak.com/channels/1472843/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=86400&type=column&update=15&height=500&width=auto";
+  cardImage.src = "https://thingspeak.com/channels/1472843/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=86400&type=column&update=15&height=170&width=auto&yaxismin=160&yaxismax=190";
   cardImage.width = "100%"
   cardImage.className += "card-img-top"
   cardImage.alt = "...";
@@ -15,7 +15,7 @@ function addElement(devideId) {
   cardBody.className = "card-body"
 
   var cardTitle = document.createElement("h5");
-  cardTitle.appendChild(document.createTextNode("Card title"));
+  cardTitle.appendChild(document.createTextNode(deviceId));
 
   var cardText = document.createElement("p");
   cardText.appendChild(document.createTextNode("Text field"));
