@@ -11,6 +11,6 @@
         }
     ],
     "scope": "/",
-    "start_url": "/",
+    "start_url": "https://shielded-wildwood-33925.herokuapp.com/",
     "display": "fullscreen"
 }
