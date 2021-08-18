@@ -10,7 +10,7 @@
             "type": "image/png"
         }
     ],
-    "scope": "/",
+    "scope": "https://shielded-wildwood-33925.herokuapp.com/",
     "start_url": "https://shielded-wildwood-33925.herokuapp.com",
     "display": "fullscreen"
 }
