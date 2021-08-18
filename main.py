@@ -9,7 +9,7 @@ arr = ['shinoda', 'masami']
 
 @app.route("/")
 def index():
-    return render_template('node_parts.html', title='flask test', arr=arr)
+    return render_template('node_parts.html', title='current monitor', arr=arr)
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 5000)))
