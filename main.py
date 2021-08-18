@@ -1,6 +1,6 @@
 from flask import Flask, render_template, jsonify, request
 import pymysql
-import db
+# import db
 
 app = Flask(__name__)
 
